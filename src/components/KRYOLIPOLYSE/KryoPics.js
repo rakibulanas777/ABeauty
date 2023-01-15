@@ -14,32 +14,32 @@ const KryoPics = () => {
 					<img src={KRYOWOMAN_IMG} alt="Woman img" />
 				</div>
 			</div>
-			<div class="kp-grid">
-				<div class="kp-g-1 kp-g">
-					<p class="kpg-title">BASIC</p>
-					<p class="kpg-price">Fr. 199.-</p>
-					<hr class="kpg-hr" />
-					<p class="kpg-desc">Unser Basic Packet beinhaltet 1 Zone</p>
+			<div className="kp-grid">
+				<div className="kp-g-1 kp-g">
+					<p className="kpg-title">BASIC</p>
+					<p className="kpg-price">Fr. 199.-</p>
+					<hr className="kpg-hr" />
+					<p className="kpg-desc">Unser Basic Packet beinhaltet 1 Zone</p>
 					<a href="/kontakt/#kontakt">
-						<button class="kpg-btn">KONTAKTIERE UNS</button>
+						<button className="kpg-btn">KONTAKTIERE UNS</button>
 					</a>
 				</div>
-				<div class="kp-g-2 kp-g">
-					<p class="kpg-title">STANDARD</p>
-					<p class="kpg-price">Fr. 299.-</p>
-					<hr class="kpg-hr" />
-					<p class="kpg-desc">Unser Basic Packet beinhaltet 2 Zonen</p>
+				<div className="kp-g-2 kp-g">
+					<p className="kpg-title">STANDARD</p>
+					<p className="kpg-price">Fr. 299.-</p>
+					<hr className="kpg-hr" />
+					<p className="kpg-desc">Unser Basic Packet beinhaltet 2 Zonen</p>
 					<a href="/kontakt/#kontakt">
-						<button class="kpg-btn">KONTAKTIERE UNS</button>
+						<button className="kpg-btn">KONTAKTIERE UNS</button>
 					</a>
 				</div>
-				<div class="kp-g-3 kp-g">
-					<p class="kpg-title">PREMIUM</p>
-					<p class="kpg-price premium">1 Zonenabo 3 Behandlungen fr.480-</p>
-					<p class="kpg-price premium">2 Zonenabo 3 Behandlungen fr.720-</p>
-					<p class="kpg-price premium">3 Zonenabo 3 Behandlungen fr.899-</p>
+				<div className="kp-g-3 kp-g">
+					<p className="kpg-title">PREMIUM</p>
+					<p className="kpg-price premium">1 Zonenabo 3 Behandlungen fr.480-</p>
+					<p className="kpg-price premium">2 Zonenabo 3 Behandlungen fr.720-</p>
+					<p className="kpg-price premium">3 Zonenabo 3 Behandlungen fr.899-</p>
 					<a href="/kontakt/#kontakt">
-						<button class="kpg-btn">KONTAKTIERE UNS</button>
+						<button className="kpg-btn">KONTAKTIERE UNS</button>
 					</a>
 				</div>
 			</div>

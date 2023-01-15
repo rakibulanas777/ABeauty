@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+$text-font: "Josefin Sans", sans-serif;
+.FindUsInstagram {
+  background-color: #222222;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin-bottom: 80px;
+  font-family: $text-font;
+}
+.fui-1-div {
+  background-color: red;
+  width: 50%;
+  position: relative;
+  margin-left: -1px;
+}
+
+.fui-img {
+  width: 100%;
+  height: 100%;
+}
+.fui-2-div {
+  background-color: #222222;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: white;
+  margin-left: -1px;
+  hr {
+    width: 150px;
+    border: none;
+    background-color: white;
+    height: 1px;
+    margin: 15px;
+  }
+}
+.fui-title {
+  font-size: 35px;
+  margin-top: 55px;
+}
+.fui-desc {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 9px;
+}
+.fui-btn {
+  width: 225px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid white;
+  text-decoration: none;
+  position: absolute;
+  bottom: 100px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  &:hover {
+    img {
+      transform: translateX(50px);
+    }
+    p {
+      transform: translateX(-30px);
+      opacity: 0;
+    }
+  }
+  img {
+    transition: all 0.5s ease;
+
+    width: 40px;
+  }
+  p {
+    transition: all 0.5s ease;
+
+    font-size: 15px;
+    margin-left: 15px;
+    color: white;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .FindUsInstagram {
+    height: 450px;
+  }
+  .fui-img {
+  }
+  .fui-title {
+    font-size: 30px;
+    margin-bottom: -5px;
+    width: 100%;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .fui-desc {
+    font-size: 14px;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .FindUsInstagram {
+    height: 400px;
+    margin-bottom: 60px;
+  }
+  .fui-btn {
+    width: 200px;
+    height: 80px;
+    img {
+      width: 35px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}
+@media screen and (max-width: 880px) {
+  .FindUsInstagram {
+    height: 350px;
+  }
+  .fui-title {
+    font-size: 25px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 45px;
+  }
+  .fui-desc {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+  }
+  .fui-btn {
+    bottom: 50px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .FindUsInstagram {
+    height: 300px;
+  }
+  .fui-title {
+    font-size: 22px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 25px;
+  }
+  .fui-desc {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+  }
+  .fui-btn {
+    bottom: 25px;
+    height: 65px;
+    width: 180px;
+    img {
+      width: 30px;
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .FindUsInstagram {
+    flex-direction: column;
+    height: 550px;
+  }
+  .fui-2-div {
+    order: -1;
+    width: 100%;
+    height: 40%;
+  }
+  .fui-1-div {
+    height: 60%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .FindUsInstagram {
+    height: 500px;
+  }
+  .fui-2-div {
+    order: -1;
+    width: 100%;
+    height: 45%;
+  }
+  .fui-1-div {
+    height: 55%;
+    width: 100%;
+  }
+  .fui-title {
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+  }
+  .fui-desc {
+    width: 160px;
+    font-size: 11px;
+  }
+  .fui-btn {
+    bottom: 25px;
+    height: 60px;
+    width: 170px;
+    &:hover {
+      img {
+        margin-right: 12px;
+      }
+    }
+    img {
+      width: 26px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
+@media screen and (max-width: 350px) {
+  .FindUsInstagram {
+    height: 450px;
+    margin-bottom: 50px;
+  }
+  .fui-title {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+    margin-bottom: -8px;
+  }
+  .fui-desc {
+    width: 160px;
+    margin-top: -5px;
+    font-size: 11px;
+  }
+  .fui-btn {
+    bottom: 20px;
+  }
+}

@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+$text-font: "Josefin Sans", sans-serif;
+
+.NailsSlider {
+  height: 600px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  width: 100%;
+  font-family: $text-font;
+  display: flex;
+}
+.ns-1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-left: 80px;
+  transition: all 0.5s ease;
+}
+.ns-2 {
+  margin-right: 80px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 450px;
+  }
+}
+.ns-1-title {
+  width: 600px;
+  font-size: 30px;
+}
+.ns-1-slider {
+  width: 600px;
+  height: 230px;
+  overflow: hidden;
+}
+.ns-1-slider-inner {
+  width: 100%;
+  transition: all 0.5s ease;
+  height: 945px;
+}
+
+.nss-container {
+  width: 600px;
+  background-color: #222222;
+  height: 110px;
+  margin-bottom: 10px;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nss-title {
+  height: 100%;
+  font-size: 18px;
+  padding: 0px 10px 0px 10px;
+  width: 225px;
+  text-align: center;
+}
+.nss-price {
+  width: 150px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  height: 80%;
+  font-size: 22.5px;
+}
+.nss-content {
+  font-size: 14px;
+  width: 225px;
+  display: flex;
+  padding-left: 25px;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ns-1-button-div {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  transition: all 0.5s ease;
+}
+.ns-1-button {
+  width: 50px;
+  outline: none;
+  height: 50px;
+  cursor: pointer;
+  border: 1px solid #222222;
+  background: transparent;
+  border-radius: 1000px;
+  img {
+    width: 16px;
+  }
+}
+.ns-1-button-back-div {
+  transition: all 0.5s ease;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  transform: translateY(0px);
+}
+.ns-1-button-back {
+  transform: rotate(180deg);
+}
+.ns-1-button-inactive {
+  opacity: 0;
+  transform: translateY(80px);
+  margin-top: 0px;
+}
+.ns-1-button-down-inactive {
+  opacity: 0;
+  transform: translateY(-80px);
+}
+@media screen and (max-width: 1700px) {
+  .ns-2 {
+    margin-right: 100px;
+    img {
+      width: 400px;
+    }
+  }
+  .ns-1 {
+  }
+  .ns-1-title {
+    width: 500px;
+  }
+  .ns-1-slider {
+    width: 500px;
+  }
+  .ns-1-button-div {
+    width: 500px;
+  }
+  .ns-1-button-back-div {
+    width: 500px;
+  }
+  .ns-1-slider-inner {
+    width: 500px;
+  }
+  .nss-container {
+    width: 500px;
+  }
+  .nss-title {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 17px;
+  }
+  .nss-content-each {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .ns-1 {
+  }
+  .ns-1-title {
+    width: 450px;
+  }
+  .ns-1-slider {
+    width: 450px;
+  }
+  .ns-1-button-div {
+    width: 450px;
+  }
+  .ns-1-button-back-div {
+    width: 450px;
+  }
+  .ns-1-slider-inner {
+    width: 450px;
+  }
+  .nss-container {
+    width: 450px;
+  }
+  .nss-title {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 17px;
+  }
+  .nss-price {
+    font-size: 22px;
+  }
+  .nss-content-each {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .ns-2 {
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .ns-2 {
+    margin-right: 0px;
+    img {
+      width: 350px;
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .NailsSlider {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .ns-1 {
+    text-align: center;
+    margin: 0px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    order: 2;
+  }
+  .ns-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .ns-1 {
+  }
+  .ns-1-title {
+    width: 100%;
+    padding: 0px 100px 0px 100px;
+  }
+  .ns-1-slider {
+    width: 350px;
+  }
+  .ns-1-button-div {
+    width: 350px;
+  }
+  .ns-1-button-back-div {
+    width: 350px;
+  }
+  .ns-1-slider-inner {
+    width: 350px;
+  }
+  .nss-container {
+    width: 350px;
+  }
+  .nss-title {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 17px;
+    width: 250px;
+  }
+  .nss-price {
+    font-size: 17px;
+  }
+  .nss-content-each {
+    font-size: 11px;
+  }
+
+  .nss-content {
+    width: 250px;
+    padding: 0px;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 545px) {
+  .ns-2 {
+    img {
+      width: 300px;
+    }
+  }
+}
+@media screen and (max-width: 533px) {
+  .ns-1-title {
+    padding: 0px 20px 0px 20px;
+  }
+}
+@media screen and (max-width: 488px) {
+  .ns-1-title {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .ns-2 {
+    img {
+      width: 250px;
+    }
+  }
+}
+@media screen and (max-width: 430px) {
+  .ns-1 {
+  }
+  .ns-1-title {
+  }
+  .ns-1-slider {
+    width: 300px;
+  }
+  .ns-1-button-div {
+    width: 300px;
+  }
+  .ns-1-button-back-div {
+    width: 300px;
+  }
+  .ns-1-slider-inner {
+    width: 300px;
+  }
+  .nss-container {
+    width: 300px;
+  }
+  .nss-title {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+    width: 225px;
+  }
+  .nss-price {
+    font-size: 16px;
+    width: 125px;
+  }
+  .nss-content-each {
+    font-size: 11px;
+  }
+
+  .nss-content {
+    width: 225px;
+    padding: 0px;
+    padding-left: 5px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .ns-1-slider {
+    width: 250px;
+  }
+  .ns-1-button-div {
+    width: 250px;
+  }
+  .ns-1-button-back-div {
+    width: 250px;
+  }
+  .ns-1-slider-inner {
+    width: 250px;
+  }
+  .nss-container {
+    width: 250px;
+  }
+  .nss-title {
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 13px;
+    width: 225px;
+  }
+  .nss-price {
+    font-size: 14px;
+    width: 125px;
+  }
+  .nss-content-each {
+    font-size: 11px;
+  }
+
+  .nss-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+  .nss-content-each {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 317px) {
+  .ns-1-title {
+    font-size: 23px;
+  }
+}

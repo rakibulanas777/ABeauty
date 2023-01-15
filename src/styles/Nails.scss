@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+$text-font: "Josefin Sans", sans-serif;
+
+.nh-inner {
+  width: 100%;
+  height: 100%;
+  font-family: $text-font;
+}
+
+.nh-first-sec {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 125px 0px 100px;
+}
+.nh-first-sec-custom {
+  height: 600px;
+  padding-top: 0px;
+}
+
+.nh-fs-1 {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 100px;
+}
+.nh-fs-1-title {
+  font-size: 30px;
+}
+.nh-fs-1-desc {
+  margin-top: 25px;
+  font-weight: lighter;
+  font-size: 16px;
+}
+.nh-fs-2 {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  img {
+    width: 500px;
+  }
+}
+.nh-first-sec-custom {
+  height: 400px;
+  margin-bottom: 80px;
+}
+.nh-fs-1-custom {
+  order: 2;
+  align-items: flex-start;
+  margin-left: 100px;
+}
+.nh-fs-2-custom {
+  justify-content: flex-end;
+}
+.nh-fs-2-custom {
+  img {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .nh-first-sec {
+  }
+  .nh-first-sec-custom {
+    height: 450px;
+    margin-bottom: 100px;
+  }
+
+  .nh-fs-1-custom {
+  }
+  .nh-fs-2-custom {
+    display: flex;
+    justify-content: flex-end;
+    img {
+      width: 400px;
+    }
+  }
+  .nh-fs-2 {
+    img {
+      width: 450px;
+    }
+  }
+}
+@media screen and (max-width: 1250px) {
+  .nh-fs-1 {
+    align-items: flex-start;
+  }
+  .nh-fs-1-custom {
+    align-items: flex-start;
+    padding: 0px 0px 0px 125px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .nh-first-sec {
+    height: 550px;
+  }
+  .nh-fs-2 {
+    img {
+      width: 350px;
+    }
+  }
+  .nh-first-sec-custom {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .nh-first-sec {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+  .nh-first-sec-custom {
+    margin-bottom: 75px;
+  }
+  .nh-fs-1 {
+    padding: 0px;
+    height: 100%;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    width: 60%;
+  }
+
+  .nh-fs-2 {
+    height: 500px;
+    padding-bottom: 50px;
+  }
+  .nh-fs-2-custom {
+    padding-bottom: 0px;
+    height: 380px;
+    margin-top: -25px;
+    justify-content: center;
+  }
+  .nh-fs-1-custom {
+    padding: 30px 0px 0px 0px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nh-fs-2 {
+    img {
+      width: 350px;
+    }
+  }
+  .nh-fs-1-custom {
+    padding: 0px 0px 0px 0px;
+    margin-bottom: -15px;
+  }
+  .nh-fs-2-custom {
+    margin-top: -50px;
+  }
+}
+@media screen and (max-width: 545px) {
+  .nh-fs-2-custom {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+
+    img {
+      width: 350px;
+    }
+  }
+  .nh-fs-2 {
+    width: 100%;
+    margin: 0px;
+    img {
+    }
+  }
+}
+@media screen and (max-width: 488px) {
+  .nh-fs-1 {
+    width: 70%;
+  }
+  .nh-fs-1-title {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .nh-fs-2 {
+    height: 400px;
+    img {
+      width: 300px;
+    }
+  }
+  .nh-fs-2-custom {
+    margin-top: -80px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .nh-fs-2 {
+    height: 300px;
+    img {
+      width: 250px;
+    }
+  }
+  .nh-fs-2-custom {
+    margin-top: -55px;
+  }
+  .nh-fs-1-custom {
+    padding: 30px 0px 50px 0px;
+    margin-bottom: -50px;
+  }
+}
+@media screen and (max-width: 347px) {
+  .nh-fs-1 {
+    width: 80%;
+  }
+}

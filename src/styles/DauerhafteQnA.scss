@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+$text-font: "Josefin Sans", sans-serif;
+.DQA {
+  font-family: $text-font;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
+.dqa-title {
+  font-size: 30px;
+  height: 80px;
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dqa-grid {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.dqa-1 {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.dqa-2 {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .dqa-grid {
+    flex-direction: column;
+  }
+  .dqa-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dqa-1 {
+    width: 100%;
+  }
+  .dqa-2 {
+    width: 100%;
+  }
+  .dqa-title {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .dqa-title {
+    padding: 0px 25px 0px 25px;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 490px) {
+  .dqa-title {
+    font-size: 25px;
+    padding-bottom: 0px;
+  }
+  .dqa-grid {
+    padding: 0px;
+    margin: 0px;
+  }
+  .DQA {
+    padding: 0px 25px 37px 25px;
+    justify-content: center;
+    align-items: center;
+  }
+}

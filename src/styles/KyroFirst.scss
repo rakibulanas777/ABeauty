@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+$text-font: "Josefin Sans", sans-serif;
+
+.KF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0px 80px 0px;
+  padding: 0px 100px 0px 100px;
+}
+
+.kf-1 {
+  font-family: $text-font;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.kf-1-title {
+  font-size: 30px;
+}
+.kf-1-desc {
+  margin-top: 25px;
+  font-weight: lighter;
+}
+.kf-2 {
+  margin-left: 50px;
+  img {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .KF {
+    margin-top: 100px;
+  }
+  .kf-2 {
+    img {
+      width: 450px;
+    }
+  }
+  .kf-1 {
+    width: 600px;
+  }
+  .kf-1-title {
+  }
+}
+@media screen and (max-width: 1000px) {
+  .KF {
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .kf-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .kf-2 {
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 0px 0px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .kf-2 {
+    img {
+      width: 350px;
+    }
+  }
+}
+@media screen and (max-width: 490px) {
+  .kf-1-title {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .KF {
+    padding: 0px 50px 0px 50px;
+  }
+  .kf-2 {
+    img {
+      width: 300px;
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .kf-2 {
+    img {
+      width: 250px;
+    }
+  }
+}

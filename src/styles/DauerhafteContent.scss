@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+$text-font: "Josefin Sans", sans-serif;
+
+.DC {
+  font-family: $text-font;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.dc-1 {
+  width: 500px;
+  margin-right: 25px;
+}
+.dc-1-title {
+  font-size: 30px;
+}
+.dc-1-desc {
+  margin-top: 20px;
+  font-weight: lighter;
+}
+.dc-2 {
+  width: 500px;
+  margin-left: 25px;
+  img {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .dc-2 {
+    width: 400px;
+    img {
+      width: 400px;
+    }
+  }
+}
+@media screen and (max-width: 1080px) {
+  .DC {
+    flex-direction: column;
+  }
+  .dc-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+  }
+  .dc-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .dc-1-title {
+    font-size: 30px;
+  }
+  .dc-2 {
+    margin-top: 50px;
+  }
+  .DC {
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .dc-1-title {
+    font-size: 25px;
+  }
+  .dc-2 {
+    img {
+      width: 350px;
+    }
+  }
+}
+@media screen and (max-width: 420px) {
+  .dc-2 {
+    img {
+      width: 300px;
+    }
+  }
+}
+@media screen and (max-width: 370px) {
+  .dc-2 {
+    img {
+      width: 250px;
+    }
+  }
+}

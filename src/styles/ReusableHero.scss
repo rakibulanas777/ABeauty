@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+$text-font: "Josefin Sans", sans-serif;
+.ReusableHero {
+  width: 100%;
+  height: 450px;
+  background-color: #222222;
+  font-family: $text-font;
+  position: relative;
+}
+
+.rh-text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 65%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  text-align: center;
+}
+.rh-title {
+  font-size: 45px;
+}
+.rh-desc {
+  margin-top: 15px;
+  font-size: 16px;
+}
+.invis-div {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  bottom: 110px;
+  visibility: hidden;
+}
+@media screen and (max-width: 860px) {
+  .ReusableHero {
+    height: 345px;
+  }
+  .rh-text {
+    width: 70%;
+  }
+  .rh-title {
+    font-size: 40px;
+  }
+  .rh-desc {
+    font-size: 15px;
+  }
+  .invis-div {
+    bottom: 82.5px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .rh-text {
+    top: 228px;
+  }
+  .rh-title {
+    font-size: 35px;
+  }
+  .rh-desc {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .rh-custom {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .rh-custom {
+    font-size: 25px;
+  }
+}
